@@ -7,34 +7,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6Gvk/e3s4Wz6iJgD/+ub2oU" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div class="main-container"></div>
     <header>
-        <nav>
-            <a href="index.html" class="lien-icone">
-                <img src="images/logo/Booki.png" alt="Logo Booki" />
-            </a>
-            <div class="menu">
-                <a href="index.html">Hébergements</a>
-                <a href="activites.html">Activités</a>
-            </div>
-        </nav>
-    </header>
+        <div class="header-container">
+          <div class="logo-container">
+            <img src="images/logo/Booki.png" alt="Logo" class="logo" width="61.09" height="19">
+          </div>
+          <nav class="menu">
+            <a href="index.html">Hébergements</a>
+            <a href="activites.html">Activités</a>
+          </nav>
+        </div>
+      </header>
     <main>
         <div class="headline">
         <h1>Trouvez votre hébergement pour des vacances de rêve.</h1>
         <p>En plein centre-ville ou en pleine nature</p>
         </div>
 
-        <form method="get" action="#">
-            <div class="input-container">
-                <i class="fa-solid fa-location-dot"></i>
-                <input type="text" placeholder="Marseille,France" name="search">
-                <button>Rechercher</button>
-        </form>
+        <form action="get" class="search-form">
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="text" value="Marseille, France" class="search-input">
+            <button type="submit" class="search-button">Rechercher</button>
+          </form>
 
         <h2>Filtres</h2>
         <div id="myBtnContainer"></div>
@@ -47,10 +46,9 @@
        
     <div class="hebergements-and-populaires">
     <section class="hebergements">
-        <div classe="ville">
-            <h1 class="section-title">Hébergements à Marseille</h1>
+            <h1>Hébergements à Marseille</h1>
             <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
-        </div>
+
         <div class="ville-card">
             <a href="#">
                 <article class="card">
@@ -167,14 +165,13 @@
                     </div>
                 </article>
             </a>
-            <h2>Afficher plus</h2>
-        </div>    
+        </div>  
+     <h2>Afficher plus</h2>
     </section>
     <section class="populaires">
-        <div class="populaires-title">
-            <h1 class="section-title">Les plus populaires</h1>
+           <h1>Les plus populaires</h1>
             <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
-        </div>
+     
         <div class="populaires-cards">
             <a href="#">
                 <article class="card">
@@ -283,6 +280,7 @@
                     </div>
                 </article>
             </a>
+        </div>    
     </section>
     </main>
     <footer>
