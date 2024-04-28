@@ -25,6 +25,11 @@ h2 {
     font-size: 18px;
     color: #000000;  
 }
+
+h3 {
+    font-size: 16px;
+    color: #000000;    
+}
 p
 {
   font-size: 16px;
@@ -62,10 +67,35 @@ body {
 
 .menu :hover {
     color: #0065FC;
-    text-decoration: overline 2px; 
+    text-decoration: overline 2px;
 }
 
-.fa-solid {
+.fa-solid, .fa-regular {
     color: var(--main-color);
 }
 
+.footer-container {
+    display: flex;
+    align-items: center;  
+    height: 163px;
+    background-color: var(--main-bg-color);
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+table {
+    width: 100%;
+    padding: 10px;
+   
+}
+th {
+    text-align: left;
+    font-size: 18px;
+    padding: 10px;
+}
+
+td {
+    
+    text-align: left;
+    padding: 10px;
+  }

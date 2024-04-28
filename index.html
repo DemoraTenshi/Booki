@@ -42,7 +42,7 @@
             <div id="myBtnContainer">
               <button class="btn" onclick="filterSelection('economique')">
                 <i class="fa-solid fa-money-bill-wave"></i></i> 
-                Economique
+                Économique
               </button>
               <button class="btn" onclick="filterSelection('familial')">
                 <i class="fa-solid fa-person"></i> 
@@ -58,12 +58,19 @@
               </button>
             </div>
           </div>
-    
+        
+          <div class="info-bar">
+            <p>
+                <span class="info-icon">
+                 <i class="fa-solid fa-info"></i>   
+                </span>
+            Plus de 500 logements sont disponibles dans cette ville
+            </p>
+          </div>
        
     <div class="hebergements-and-populaires">
     <section class="hebergements">
             <h1>Hébergements à Marseille</h1>
-            <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
 
         <div class="ville-card">
             <a href="#">
@@ -181,12 +188,18 @@
                     </div>
                 </article>
             </a>
-        </div>  
-     <h2>Afficher plus</h2>
+        </div> 
+        <div class="more-result"> 
+            <h2>Afficher plus</h2>
+        </div>
     </section>
     <section class="populaires">
-           <h1>Les plus populaires</h1>
+        <h1>
+          Les plus populaires
+          <span class="chart-icon">
             <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+          </span>
+        </h1>
      
         <div class="populaires-cards">
             <a href="#">
@@ -249,7 +262,7 @@
         </div>
     </section>
     </div>
-    <section classe="activites">
+    <section class="activites">
         <h1>Activités à Marseille</h1>
         <div class="activites-card">
             <a href="#">
@@ -300,12 +313,13 @@
     </section>
     </main>
     <footer>
+        <div class="footer-container">
             <table>
                 <thead>
                     <tr>
                         <th>À propos</th>
                         <th>Nos hébergements</th>
-                        <th>Assitance</th>
+                        <th>Assistance</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -324,7 +338,7 @@
                     </tr>
                 </tbody>
             </table>
-
+        </div>
     </footer>
 </body>
 </html>
