@@ -30,8 +30,7 @@ h3 {
     font-size: 16px;
     color: #000000;    
 }
-p
-{
+p {
   font-size: 16px;
   color: #000000;
 }
@@ -71,7 +70,7 @@ body {
     border-top:#0065FC 2px solid;
 }
 
-.fa-solid, .fa-regular {
+.fa-solid {
     color: var(--main-color);
 }
 
