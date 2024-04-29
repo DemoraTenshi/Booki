@@ -47,27 +47,28 @@ body {
 .header-container {
     display: flex;
     align-items: center;
+    padding: 10px 0px 40px 0px;
 }
 .logo-container {
-    flex: 1; /* Ajoutez cette ligne pour que le logo prenne tout l'espace disponible à gauche */
+    flex: 1; 
+    padding: 30px 10px 0px 10px;
 }
   
 .menu {
     display: flex;
     align-items: center;
-    gap: 10px; /* Ajoutez un espace entre les boutons du menu */
+    gap: 10px; 
 }
   
 .menu a {
     text-decoration: none;
     color: #000;
-    padding: 10px;
+    padding: 30px 10px 0px 10px;
     font-size: 16px;
 }
 
 .menu :hover {
-    color: #0065FC;
-    text-decoration: overline 2px;
+    border-top:#0065FC 2px solid;
 }
 
 .fa-solid, .fa-regular {
@@ -76,26 +77,38 @@ body {
 
 .footer-container {
     display: flex;
-    align-items: center;  
-    height: 163px;
+    align-items: baseline;  
+    height: 170px;
     background-color: var(--main-bg-color);
-    margin-top: 30px;
-    padding-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
 }
 
-table {
-    width: 100%;
-    padding: 10px;
-   
+.footer-column {
+    flex: 1;
 }
-th {
-    text-align: left;
-    font-size: 18px;
-    padding: 10px;
+  
+.footer-column h2 {
+    margin-bottom: 10px;
 }
+  
+.footer-column ul {
+    list-style-type: none;
+    padding: 5px;
+    margin-left: 15px;
+}
+  
+.footer-column li {
+    margin-bottom: 5px;
+    padding: 5px;
+}
+  
+.footer-column a {
 
-td {
-    
-    text-align: left;
-    padding: 10px;
-  }
+    text-decoration: none;
+}
+  
+.footer-column a:hover {
+    text-decoration: underline;
+}
