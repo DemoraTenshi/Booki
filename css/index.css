@@ -203,29 +203,45 @@
 
 .hebergements {
     width: 90%;
+    padding: 25px 0px 25px 0px;
 }   
-
-
 
 .populaires {
     width: 90%;
+    padding: 20px 0px 20px 20px;
 }
 
 .populaires-cards {
     flex-direction: row;
+    max-width: 275px;
+    margin: 0px;
     
 }
 
-.pop-card {
-    max-height: 146px;
-    max-width: 275px;
+.pop-card img {
+    max-width: 92px;
+}
+
+.pop-card-rating {
+    margin: 30px 5px 5px 5px;
+}
+
+.activites {
+    width: 90%;
+  }
+
+.activites-card {
+    flex-wrap: nowrap;
+}
+
+.activites-card img {
+    max-width: 65%;
+    max-height: 52%;
 }
 
 }
-
-
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
     /* ... */
 }
