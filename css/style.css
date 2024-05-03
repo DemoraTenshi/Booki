@@ -50,6 +50,7 @@ body {
 }
 
 .header-container {
+    width: 100%;
     display: flex;
     align-items: center;
     padding: 0px 0px 40px 0px;
@@ -74,17 +75,17 @@ body {
 
 .menu :hover {
     border-top:#0065FC 2px solid;
+    padding-top: 15px;
 }
 
 /******* Search bar ********/
 .search-form {
+    width: 100%;
     display: flex;
     align-items: center;
     border-radius: 15px;
     padding: 1px;
     margin-top: 40px;
-
-
 }
   
 .search-form i {
@@ -126,6 +127,9 @@ body {
     background-color: #0069d9;
 }
 
+.magnifying-glass:hover {
+    background-color: #0069d9;
+}
 .magnifying-glass {
     display: none;
     border: none;
@@ -140,11 +144,13 @@ body {
 
 /********Headline*********/
 .headline h1 {
+    width: 100%;
    padding-bottom: 10px;
 }
 
 /******** Filter**********/
 .filter-container {
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -181,12 +187,13 @@ body {
 }
 /*******info bar******/
 .info-bar {
+    width: 100%;
     display: flex;
     align-items: center;
     margin-bottom: 30px;
 }
 
-  .info-icon {
+.info-icon {
     font-size: 12px;
     border: 1px solid #070707;
     border-radius: 50%;
@@ -199,13 +206,13 @@ body {
     height: 10px;
 }
 
+/******* footer ******/
 .footer-container {
+    width: 100%;
     display: flex;
     align-items: baseline;  ;
     background-color: var(--main-bg-color);
     margin-top: 40px;
-
-
 }
 
 .footer-column {
@@ -238,7 +245,7 @@ body {
 }
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
+@media (width <= 1024px) {
 
 body {
     padding: 0px 40px;
@@ -248,7 +255,6 @@ body {
     width: 90%;
 
 }    
-
 
 .filter-container {
     flex-direction: column;
@@ -266,7 +272,7 @@ body {
 
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 768px) {
+@media (width <= 768px) {
 
 .header-container {
    width: 100%;
