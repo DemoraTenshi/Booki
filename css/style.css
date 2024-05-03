@@ -126,6 +126,18 @@ body {
     background-color: #0069d9;
 }
 
+.magnifying-glass {
+    display: none;
+    border: none;
+    outline: none;
+}
+
+.magnifying-glass i {
+    background-color: var(--main-color);
+    border-radius: 0px 15px 15px 0px;
+    font-size: 20px;
+}
+
 /********Headline*********/
 .headline h1 {
    padding-bottom: 10px;
