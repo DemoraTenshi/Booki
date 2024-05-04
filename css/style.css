@@ -3,6 +3,7 @@
     font-family: "Raleway", sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }  
 html {
     font-size: 16px;
@@ -248,15 +249,7 @@ body {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (width <= 1024px) {
-
-.header-container {
-    width: 90%;
-}  
-
-.footer-container {
-    width: 90%;
-}  
-
+    
 }
 
 /* Small devices (phones, less than 768px) */
