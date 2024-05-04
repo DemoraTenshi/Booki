@@ -231,5 +231,18 @@
 
 /* Small devices (phones, less than 768px) */
 @media (width <= 768px) {
-    /* ... */
+
+.hebergements-and-populaires {
+    flex-direction: column-reverse;
+    gap: 40px;
+}
+
+.populaires-cards {
+    flex-direction: column;
+}
+
+
+.activites-card {
+    flex-direction: column;
+}
 }
