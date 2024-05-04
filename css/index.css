@@ -12,18 +12,18 @@
 .hebergements {
     width: 65%;
     margin-right: 40px;
+
 }
 
 .hebergements h1 {
-    margin-left: 25px;
-    margin-bottom: 40px;
+    margin: 25px 0px 40px 25px;
 }
 
 .ville-card {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 10px 0px 10px;
-    gap: 30px;
+    margin: 0px 20px 0px 20px;
+    gap: 20px;
     justify-content: space-evenly;
 }
 
@@ -67,8 +67,8 @@
 }
 
 .more-result{
-    padding-top: 30px;
-    margin-left:25px;
+    margin-top: 40px;
+    margin-left: 30px;
 }
 
 .more-result a {
@@ -84,8 +84,7 @@
 .populaires h1 {
     display: flex;
     justify-content: space-between;
-    margin-left: 25px;
-    margin-bottom: 40px;
+    margin: 25px 0px 40px 25px;
 }
   
 .populaires h1 .chart-icon {
@@ -95,8 +94,8 @@
 .populaires-cards {
     display: flex;
     flex-direction: column;
-    margin: 0px 10px 0px 10px;
-    gap: 30px;
+    margin: 0px 20px 30px 20px;
+    gap: 20px;
     justify-content: space-evenly;
 }
 
@@ -116,12 +115,12 @@
   
 .pop-card-content {
     margin-top: 5px;
-    padding-left: 15px;
+    margin-left: 15px;
     align-content: flex-end;
 }
 
 .pop-card-txt {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .pop-card-title {
