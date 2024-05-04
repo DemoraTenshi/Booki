@@ -75,6 +75,7 @@ body {
 .menu :hover {
     border-top:#0065FC 2px solid;
     padding-top: 15px;
+    color: #0065FC;
 }
 
 /******* Search bar ********/
