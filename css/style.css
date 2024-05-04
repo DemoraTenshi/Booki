@@ -50,14 +50,32 @@ body {
 .fa-solid {
     color: var(--main-color);
 }
-
+header {
+    position: relative;
+    z-index: 1;
+    margin-top: -2px; /* Ajoutez une marge négative en haut pour coller la bordure bleue tout en haut du navigateur */
+}
+  
+header:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent; /* Couleur de fond transparente par défaut */
+    z-index: 2;
+    transition: background-color 0.3s ease; /* Ajoutez une transition pour une animation douce */
+}
+  
 .header-container {
     width: 100%;
     display: flex;
     align-items: center;
     padding: 0px 0px 40px 0px;
 }
-
+  
 .logo-container {
     flex: 1;
     padding: 20px 10px 0px 10px;
@@ -65,21 +83,39 @@ body {
   
 .menu {
     display: flex;
-    align-items: flex-end;
-    gap: 10px; 
+    align-items: center;
+    gap: 10px;
 }
   
 .menu a {
     color: #000;
     margin: 0px 10px 0px 35px;
     font-size: 1rem;
+    padding-top: 15px; /* Ajoutez un peu de remplissage en haut pour centrer verticalement les éléments du menu */
+    position: relative; /* Positionnement relatif pour que la bordure bleue soit positionnée par rapport au lien */
 }
-
-.menu :hover {
-    border-top:#0065FC 2px solid;
-    padding-top: 15px;
+  
+.menu a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent; /* Couleur de fond transparente par défaut */
+    z-index: 2;
+    transition: background-color 0.3s ease; /* Ajoutez une transition pour une animation douce */
 }
-
+  
+.menu a:hover:before {
+    background-color: #0065FC; /* Changez la couleur de fond de la bordure bleue au survol du lien */
+}
+  
+.menu a:hover {
+    color: #0065FC;
+}
+  
 /******* Search bar ********/
 .search-form {
     width: 100%;
