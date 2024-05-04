@@ -177,7 +177,7 @@
     font-size: 1rem;
     display: flex;
     align-items: center;
-    padding: 15px;
+    margin: 15px;
 }
 
 /****** Media queries ***********/
@@ -187,38 +187,44 @@
 .hebergements-and-populaires {
     flex-direction: column;
     gap: 40px;
-}  
-
+}
 .hebergements {
     width: 100%;
+}
 
+.more-result {
+    margin-bottom: 30px;
 }
 
 .populaires {
     width: 100%;
-    padding: 20px 0px 20px 20px;
 }
 
 .populaires-cards {
     flex-direction: row;
-    margin: 0px;
+}
+
+.pop-card {
+    max-width: 275px;
+    max-height: 146px;
 }
 
 .pop-card img {
     max-width: 92px;
+    max-height: 146px;
 }
 
-.activites {
-    width: 100%;
-}
-
-.activites-card {
-    flex-wrap: nowrap;
+.pop-card-txt {
+    margin-bottom: 40px;
 }
 
 .activites-card img {
-    max-width: 65%;
-    max-height: 52%;
+   width: 194px;
+   max-height: 200px;
+}
+.activites-card .card {
+    max-width: 194px;
+    max-height: 270px;
 }
 
 }
