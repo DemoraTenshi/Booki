@@ -4,11 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+} 
 
-}  
 html {
     font-size: 16px;
 }
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -102,8 +103,6 @@ nav a:hover {
     background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     padding: 1rem;
-    display: flex;
-    justify-content: center;
     font-size: 1.25rem;
 }
   
@@ -144,7 +143,6 @@ nav a:hover {
     display: none;
     border: none;
     outline: none;
-
 }
 
 .magnifying-glass i {
@@ -152,6 +150,7 @@ nav a:hover {
     border-radius: 1rem 1rem 1rem 1rem;
     font-size: 1.25rem;
     color: #fff;
+    padding: 1.05rem;
 }
 
 /******** Filter**********/
@@ -320,10 +319,12 @@ nav a:hover{
     padding-top: 1rem;
 }
 .search-form {
-    margin: 2.5rem 1.5rem 1.25rem 1.25rem;
-    padding-left: 1rem;
+    justify-content: center;
 }
 
+.search-input{
+    width: 70%;
+}
 .search-button {
     display: none;
 }
@@ -331,6 +332,7 @@ nav a:hover{
 .magnifying-glass {
     display: contents;
 }
+
 
 .filter-container {
     flex-direction: column;
@@ -347,6 +349,7 @@ nav a:hover{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1.875rem;
+    justify-content: center;
 }
 
 .btn {
@@ -356,6 +359,10 @@ nav a:hover{
 
 .info-bar {
     margin: 1.25rem;
+}
+
+.footer-container {
+    flex-direction: column;
 }
     
 }
