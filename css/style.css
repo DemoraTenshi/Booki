@@ -89,6 +89,10 @@ nav a:hover {
 }
   
 /********Headline*********/
+.headline {
+    display: flex;
+    flex-direction: column;
+}
 .headline h1 {
     width: 100%;
    padding: 30px 0px 10px 0px;
@@ -161,7 +165,7 @@ nav a:hover {
 
 /******** Filter**********/
 .filter-container {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -201,7 +205,7 @@ nav a:hover {
 
 /*******info bar******/
 .info-bar {
-    width: 100%;
+
     display: flex;
     align-items: center;
     margin-bottom: 1.875rem;
@@ -268,6 +272,7 @@ nav a:hover {
 
 .main-container {
     padding: 0rem;
+    margin: 0rem;
 }    
 
 header {
@@ -315,7 +320,7 @@ nav a:hover{
 }
 
 .headline {
-    margin: 2.5rem 1.5rem;
+    padding: 1rem;
 }
 
 .headline h1 {
@@ -344,8 +349,8 @@ nav a:hover{
 .filter-container {
     flex-direction: column;
     align-items: flex-start;
-    margin: 2.5rem 1.5rem 1.25rem 1.25rem;
     padding-left: 1rem;
+    margin: 0rem;
 }
  
 .filter-container h2 {
@@ -365,7 +370,7 @@ nav a:hover{
 }
 
 .info-bar {
-    margin: 1.25rem;
+    margin: 1.25rem 0rem;
 }
 
 .footer-container {
