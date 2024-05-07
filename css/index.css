@@ -164,10 +164,11 @@
   
 /****** Activités ***********/
 .activites {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
+    margin: 1rem;
 }
 
 .activites h1 {
@@ -179,7 +180,8 @@
     display: flex;
     flex: 1 1 auto;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 1rem;
+    
 }
 
 .activites-card .card {
@@ -189,6 +191,7 @@
     margin-top: 2.0625rem;
     margin-bottom: 2.0625rem;
     padding: 0rem 0rem 0.3125rem 0rem;
+    justify-content: space-around;
 }
 
 .activites-card a {
