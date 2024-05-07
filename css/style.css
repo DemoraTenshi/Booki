@@ -22,6 +22,10 @@ html {
     min-width: 320px;
     padding: 0px 50px;
 }
+main {
+    display: flex;
+    flex-direction: column;
+}
 
 a {
     color: #000000;
@@ -169,6 +173,7 @@ nav a:hover {
   
 #myBtnContainer {
     display: flex;
+    flex: 1 1 auto;
 }
 
 .btn {
