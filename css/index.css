@@ -8,8 +8,6 @@
 
 /****** Hebergements ***********/
 .hebergements {
-    display: flex;
-    flex-direction: column;
     width: 65%;
     margin-right: 2.50rem;
     background-color: var(--main-bg-color);
@@ -42,16 +40,14 @@
 
 .card-title {
     font-size: 1rem;
-    display: flex;
-    flex: 1 1 auto;
+
     margin: 0.3125rem;
 }
 
 .card-subtitle {
     font-size: 0.875rem;
     margin: 0.3125rem;
-    display: flex;
-    flex: 1 1 auto;
+
 }
 
 .euro {
@@ -61,7 +57,6 @@
 .card-rating {
     font-size: 1.125rem;
     margin: 0.6250rem 0.3125rem 0.3125rem 0.3125rem;
-    
 }
 
 .card-rating i:nth-child(-n+4) {
