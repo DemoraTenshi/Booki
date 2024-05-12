@@ -166,12 +166,10 @@ nav a:hover {
 
 /******** Filter**********/
 .filter-container {
-    width: 100vw;
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 0.9375rem;
-    margin: 2.5rem 0.9375rem 1.875rem 0rem;
+    margin: 2.5rem 0rem 1.875rem 0rem;
 }
   
 .filter-container h2 {
@@ -266,6 +264,15 @@ nav a:hover {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (width <= 1024px) {
 
+.filter-container {
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.btn {
+  padding: 0.75rem 1.25rem 0.75rem 1.25rem;
+}
+
 }
 
 /* Small devices (phones, less than 768px) */
@@ -332,11 +339,11 @@ nav a:hover{
     padding-top: 1rem;
 }
 .search-form {
-    justify-content: center;
+    padding: 1rem;
 }
 
 .search-input{
-    width: 70%;
+    width: 90%;
 }
 .search-button {
     display: none;
@@ -346,11 +353,8 @@ nav a:hover{
     display: contents;
 }
 
-
 .filter-container {
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 1rem;
+    padding: 1rem;
     margin: 0rem;
 }
  
@@ -359,19 +363,25 @@ nav a:hover{
 }
 
 #myBtnContainer {
-    flex-direction: row;
+    display: flex;
     flex-wrap: wrap;
-    gap: 1.875rem;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .btn {
-    padding: 1rem 1.5625rem 1rem 1.5625rem;
-    width: 200px;
+    padding: 0.75rem;
+    flex-basis: calc(50% - 0.5rem);
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.btn:nth-child(2n) {
+    margin-right: 0;
 }
 
 .info-bar {
-    margin: 1.25rem 0rem;
+    margin: 1.25rem 1rem;
 }
 
 .footer-container {
