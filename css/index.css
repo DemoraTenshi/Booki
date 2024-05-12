@@ -202,12 +202,13 @@
 
 .activites-card a {
     display: flex;
+    width: 25%;
 }
 
 .activites-card img {
     display: flex;
     max-width: 100%;
-    height: auto;
+    height: 400px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
