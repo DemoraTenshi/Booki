@@ -17,6 +17,7 @@
 <body>
     <div class="main-container">
     <header>
+        <!--nav bar with logo & nav buttons-->
         <nav>
             <img src="./images/logo/Booki.png" alt="Logo Booki" class="logo" >
             <div class="sub-nav">
@@ -24,16 +25,19 @@
                 <a href="#activites" class="anav">Activités</a>
             </div>
         </nav>
+        <!--Headline-->
         <div class="headline">
             <h1>Trouvez votre hébergement pour des vacances de rêve.</h1>
             <p>En plein centre-ville ou en pleine nature</p>
             </div>
+            <!--Search form with possibility to change the search button on mobile -->
             <form action="" class="search-form">
                 <i class="fas fa-map-marker-alt"></i>
                 <input type="text" placeholder="Marseille, France" class="search-input">
                 <button type="submit" class="search-button">Rechercher</button>
                 <button type="submit" class="magnifying-glass"><i class="fa-solid fa-magnifying-glass"></i></button>
               </form>
+              <!--Filters-->
               <div class="filter-container">
                 <h2>Filtres</h2>
                 <div id="myBtnContainer">
@@ -55,6 +59,7 @@
                   </button>
                 </div>
               </div>
+              <!--info commentary on result number-->
               <div class="info-bar">
                 <p>
                     <span class="info-icon">
@@ -64,8 +69,10 @@
                 </p>
               </div> 
       </header>
-    <main>       
+    <main> 
+        <!--search results cards-->      
     <div class="hebergements-and-populaires">
+        <!--main results section-->
     <section class="hebergements">
             <h1>Hébergements à Marseille</h1>
         <div class="ville-card">
@@ -188,6 +195,7 @@
             <a href="#">Afficher plus</a> 
         </div>
     </section>
+    <!--sponsored results section-->
     <section class="populaires">
         <h1>
           Les plus populaires
@@ -256,6 +264,7 @@
         </div>
     </section>
     </div>
+    <!--activities section-->
     <section class="activites">
         <h1>Activités à Marseille</h1>
         <div class="activites-card">

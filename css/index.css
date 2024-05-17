@@ -1,3 +1,4 @@
+/******main search results properties******/
 .hebergements-and-populaires {
     display: flex;
 }
@@ -14,14 +15,14 @@
 }
 
 .hebergements h1 {
-    margin: 1.5625rem 0rem 2.5rem 1.5625rem;
+    padding: 1.5625em 0em 2.5em 1.5625em;
 }
 
 .ville-card {
     display: flex;
     flex-wrap: wrap;
-    margin: 0rem 1.25rem 2rem 1.25rem;
-    gap: 1.25rem;
+    padding: 0em 1.25em 2em 1.25em;
+    gap: 1.25em;
     justify-content: space-evenly;
 }
 .ville-card a {
@@ -33,7 +34,7 @@
 .card {
     background-color: white;
     border-radius: 20px;
-    padding: 0.3125rem;
+    padding: 0.3125em;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     width: 100%;
     transition: 0.2s;
@@ -41,7 +42,6 @@
 
 .card:hover {
     transform: scale(1.05);
-    
 }
 
 .card img {
@@ -53,12 +53,12 @@
 
 .card-title {
     font-size: 1rem;
-    margin: 0.3125rem;
+    padding: 0.3125em;
 }
 
 .card-subtitle {
     font-size: 0.875rem;
-    margin: 0.3125rem;
+    padding: 0.3125em;
 }
 
 .euro {
@@ -67,7 +67,7 @@
 
 .card-rating {
     font-size: 1.125rem;
-    margin: 0.6250rem 0.3125rem 0.3125rem 0.3125rem;
+    padding: 0.6250em 0.3125em 0.3125em 0.3125em;
 }
 
 .card-rating i:nth-child(-n+4) {
@@ -79,8 +79,8 @@
 }
 
 .more-result{
-    margin-bottom: 2rem;
-    margin-left: 1.8750rem;
+    padding-bottom: 2em;
+    padding-left: 1.8750em;
 }
 
 .more-result a {
@@ -97,19 +97,19 @@
 .populaires h1 {
     display: flex;
     justify-content: space-between;
-    margin: 1.5625rem 0rem 2.5rem 1.5625rem;
+    padding: 1.5625em 0em 2.5em 1.5625em;
 }
   
 .populaires h1 .chart-icon {
-    margin-right: 1.5625rem;
+    padding-right: 1.5625em;
 }
  
 .populaires-cards {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
-    margin: 0rem 1.25rem 1.8750rem 1.25rem;
-    gap: 1.25rem;
+    padding: 0em 1.25em 1.8750em 1.25em;
+    gap: 1.25em;
     justify-content: space-evenly;
 }
 
@@ -124,7 +124,7 @@
     max-height: 145px;
     background-color: white;
     border-radius: 20px;
-    padding: 0.3125rem;
+    padding: 0.3125em;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
@@ -138,9 +138,8 @@
 .populaires-cards .card-content {
     display: flex;
     flex-direction: column;
-    margin-top: 0.3125rem;
-    margin-left: 0.9375rem;
-
+    padding-top: 0.3125em;
+    padding-left: 0.9375em;
 }
 
 .populaires-cards .card-txt {
@@ -151,13 +150,13 @@
 
 .populaires-cards .card-title {
     font-size: 1rem;
-    margin: 0.3125rem;
+    padding: 0.3125em;
     flex-wrap: wrap;
 }
   
 .populaires-cards .card-subtitle {
     font-size: 0.875rem;
-    margin: 0.3125rem;
+    padding: 0.3125em;
 }
   
 .populaires-cards .card-rating {
@@ -176,34 +175,26 @@
 .activites {
     width: auto;
     display: flex;
-    flex-direction: column;
-    margin: 1rem;
+    padding-top: 2em ;
+    padding-bottom: 4.5em;
+    flex-flow: row wrap;
 }
 
 .activites h1 {
-    margin-top: 3.75rem;
+    padding: 2em 0em 2em 2em;
+    width: 100%;
 }
 
 .activites-card {
     display: flex;
-    flex: 1 1 auto;
-    flex-direction: row;
-    justify-content: space-between;
+    gap: 2em;
 }
 
 .activites-card .card {
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction: column;
-    margin-top: 2.0625rem;
-    margin-bottom: 2.0625rem;
-    padding: 0rem 0rem 0.3125rem 0rem;
+    padding: 0em 0em 0.3125em 0em;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     background-color: white;
     border-radius: 20px;
-    margin-right: 0.625rem; 
-    margin-left: 0.625rem;
-    align-items: flex-start;
 }
 
 .activites-card a {
@@ -224,7 +215,7 @@
     display: flex;
     flex: 1 1 auto;
     align-items: center;
-    margin: 0.9375rem;
+    padding: 0.9375em;
     align-self: flex-start;
     text-align: left;
 }
@@ -235,9 +226,12 @@
 
 .hebergements-and-populaires {
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 2.5em;
 }
 
+.populaires h1 .chart-icon {
+    padding: 0rem 1.5625em;
+}
 .hebergements {
     width: 100%;
 }
@@ -262,7 +256,6 @@
     max-width: 92px;
 }
 
-
 }
 
 /* Small devices (phones, less than 768px) */
@@ -270,7 +263,7 @@
 
 .hebergements-and-populaires {
     flex-direction: column-reverse;
-    gap: 2.5rem; 
+    gap: 2.5em; 
 }
 
 .hebergements-and-populaires section {
@@ -311,12 +304,13 @@
 }
 
 .activites  {
-    justify-content: center;  
+    justify-content: space-evenly;  
 }
  
 .activites-card {
+    flex: 1 1 auto;
     flex-direction: column;
-    margin: 1rem;
+    margin: 1em;
 }
  
 .activites-card a {
