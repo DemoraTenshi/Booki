@@ -1,6 +1,6 @@
 ![Booki Logo](/images/logo/Booki.png)
 
-# Booki-Crez la page d'accueil d'une agence de voyage
+# Booki - Créez la page d'accueil d'une agence de voyage
 
 Bienvenue dans le dépôt GitHub du projet OpenClassrooms 2 Booki. Le site Booki permet aux utilisateurs de trouver un hébergement et des activités dans la ville de leur choix. Ce projet consiste à mettre en place un prototype en HTML et CSS à partir d'une maquette Figma.
 
